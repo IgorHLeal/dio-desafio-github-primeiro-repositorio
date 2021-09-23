@@ -1,0 +1,54 @@
+## Comandos básicos para um bom desempenho no terminal
+
+- cd .. (retrocede um nível nas pastas)
+- cls ou clear (limpa a tela)
+- echo "texto" (printa o texto na tela) 
+  - Ex: echo hello > hello.txt - Cria um arquivo (> redirecionador de fluxo)
+- del (deleta arquivos da pasta)
+- rmdir (deleta pastas) 
+  - Ex: rmdir workspace /S /Q
+- ls -a (mostra arquivos ocultos)
+- git add *
+- git commit -m "texto" 
+- mv (mover)
+
+
+
+### Mover repositório para o GitHub
+
+- git config --list (verificar configurações)
+- git config --global user.email (adicionar e-mail)
+- git config --global user.name (adicionar nome)
+- git config --global --unset user.email (retirar e-mail)
+- git config --global --unset user.name (retirar nome)
+
+
+
+### Copiar link do repositório no GitHub
+
+No Git Bash:
+
+- git remote add origin "link" (adicionar link do repositório)
+- git remove -v (lista repositórios remotos cadastrados)
+- git push origin master  (envia o repositório local para o GitHub)
+
+
+
+
+
+### Chave SSH e Token
+
+ssh-keygen -t ed25519 -c "email"
+
+​							ou
+
+ssh-keygen -t rsa -b 4096 -C "email"
+
+- cd / c / Users / Paula / .ssh /
+- ls
+- cat id_rsa.pub
+- Adicionar no GitHub
+- No GitBash:
+  - ls
+  - eval $ (ssh-agent -s)
+  - ssh-add id_rsa

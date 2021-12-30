@@ -1,0 +1,198 @@
+### Introdução a Gestão de projetos e ao SCRUM:
+
+- ##### O que é SCRUM?
+
+​		É um dos frameworks de gerenciamento de projetos ágeis;
+
+- ##### Pilares do SCRUM: 
+
+  TRANSPARÊNCIA | ADAPTAÇÃO | INSPEÇÃO
+
+  - Conversar mais e escrever menos;
+  - Demonstrar o software aos usuários e obter feedbacks constantes;
+  - Requisitos mudam ao longo do tempo;
+  - Aprender progressivamente com o uso do software;
+  - MUP - Minimun Viable Product (Mínimo Produto Viável);
+
+- ##### Razões para adotar o SCRUM
+
+  - Desenvolvido e entregue em partes menores (2 a 4 semanas) com constantes feedbacks dos usuários;
+  - Melhor gerenciamento dos riscos (redução de incertezas);
+  - Comprometimento, motivação e transparência da equipe (feito no Daily Meeting);
+  - Maior valor para o negócio (priorização do Back Log);
+  - Usuários envolvidos em todo o ciclo;
+  - Aplicação das lições aprendidas (melhoria contínua);
+
+- ##### Características do time SCRUM:
+
+  - Equipes capazes de se auto-organizarem;
+  - As tarefas são do time e todos são responsáveis;
+  - Forte comprometimento com os resultados;
+
+- ##### Processo de desenvolvimento:
+
+  - Concepção 
+  - Análise e design
+  - Desenvolvimento
+  - Testes
+  - Implantação
+
+- ##### Gestão tradicional x Ágil:
+
+  - Tradicional: 
+    - O projeto avança quando uma fase está inteiramente completa;
+    - Escopo definido na fase inicial do projeto (Preditivo);
+    - Projeto controlado por fases e marcos;
+    - Cliente só vê o software funcionando na fase final do Projeto;
+    - Resistente a mudanças;
+  - Ágil:
+    - Software construído por partes;
+    - Escopo definido ao longo do projeto (Adaptativo);
+    - Projetos controlados por funcionalidades entregues;
+    - Cliente pode ver parte do software funcionando na fase inicial do projeto;
+    - Mudanças constantes de acordo com feedbacks contínuos;
+
+- ##### Agilidade: 
+
+  - Rapidez (mudança) e desembaraço;
+  - Fazer coisas complexas de forma simples;
+  - Equipe comprometida com os objetivos;
+  - Maior valor para o cliente;
+  - Ter capacidade de responder rapidamente a mudanças;
+
+
+
+- ##### Papéis e responsabilidades de cada um do time
+
+  - Product Owner (PO) / Dono do produto:
+    - Representante da área de negócios;
+    - Não é um comitê;
+    - Define as funcionalidades do software (Product Backlog);
+    - Prioriza as funcionalidades de acordo com o valor do negócio;
+    - Garante que o time dev entenda os níveis do backlog no nível necessário;
+  - Scrum Master (SM):
+    - Garantir o uso correto do SCRUM;
+    - Não é gerente de projetos;
+    - Age como facilitador;
+    - Auxilia o PO no planejamento e estimativas do backlog;
+    - Auxilia a equipe a remover impedimentos;
+    - Treina o time em autogerenciamento e autodisciplinaridade;
+  - Time de desenvolvimento (DEV):
+    - Possui habilidades suficientes para desenvolver, testar, criar e desenhar, ou seja, tudo o que for necessário para entregar o software funcionando;
+
+
+
+- ##### Cerimônias do SCRUM
+
+  - Time box: Tempo máximo para fazer uma cerimônia ou sprint;
+
+  - Sprint:
+
+  - Corrida, arrancada;
+
+  - Principal evento do SCRUM;
+
+  - Duração de 30 dias corridos (ou menos);
+
+    - ##### Composição de uma Sprint:
+
+    - Planejamento da SPRINT:
+
+      - Participa: PO, SM, DEV's;
+      - Time box: 8 horas - 4 horas iniciais: O que fazer? (PO)
+      - Planning Poker;
+
+    - Daily Meeting:
+
+      - Feita de pé / 15 minutos;
+      - Participa: PO, SM, DEV's;
+      - O que foi feito no dia anterior? Programação do dia? Tem algum impedimento?
+
+    - Refinamento:
+
+      - Cerimônia não oficial do SCRUM;
+      - Muito usada para discutir a próxima sprint;
+      - Aumenta o entendimento da demanda por parte do time, melhora a qualidade da entrega e retorno esperado;
+      - Presença obrigatória de todo o time SCRUM;
+
+    - Revisão da Sprint: 
+
+      - Duração de 4 horas;
+      - Time dev apresenta para o PO o trabalho feito;
+      - Time dev sana dúvidas técnicas;
+      - Validar o que foi solicitado;
+      - Validar se houve mudança no fluxo;
+      - Bater com o que foi definido no Refinamento e Planning;
+      - Agrega valor ao negócio?
+
+    - Retrospectiva da Sprint:
+
+      - Após a conclusão da Sprint
+      - Duração de 3 horas;
+      - Participa: Dev's e SM;
+      - Reunião da equipe para lições aprendidas;
+      - Transparência;
+
+
+
+
+- ##### Analisando escopo e definindo prioridades 
+
+  - Definir o objetivo;
+
+  - Definir como fazer;
+
+  - Pensar no MVP;
+
+    - Product Backlog:
+
+      Composto por Épicos e Estórias;
+
+      - Épicos: Incremento sem muito detalhamento, ajuda a te direcionar os caminhos que deve seguir;
+
+      - Estórias: Detalhamento dos épicos; Um épico normalmente se divide em várias estórias onde ficam descritos o que deve acontecer e suas regras de negócio.
+
+        
+
+    - Estória vs tarefa:
+
+      - Épico: Objetivo macro ; "Peças" para chegar ao objetivo; Conjunto de estórias;
+      - Estória: Conjunto de tarefas; Sempre em nível de negócio;
+      - Tarefa: Atividade de "montar" as peças; Um conjunto de atividades que os dev's devem desempenhar para entrega a estória;
+
+      
+
+    - Escrevendo uma Estória:
+
+      - Nome da estória;
+
+      - Descrição da estória;
+
+      - Regras de negócio (Separa as regras de front-end e de back-end);
+
+      - Tela (Link ou imagens das telas a serem desenvolvidas);
+
+      - KPI (Quais objetivos/valor a estória precisa atingir);
+
+      - Tagueamento (Como a estória será "tagueada"para poder mensurar os KPI's);
+
+      - Critérios de aceite (Estimativa e planejamento de tarefas):
+
+        - Lista de critérios que precisam ser alcançados para que a User Story atenda os requisitos do usuário e seja aceita pelo PO. 
+
+          Tem o objetivo de definir limites para as user stories, ajudar o PO a detalhar em alto nível o que é necessário para entregar valor ao cliente.
+
+  
+
+
+
+- 
+
+  
+
+  
+
+  
+
+
+
